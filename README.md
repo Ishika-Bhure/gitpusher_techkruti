@@ -1,16 +1,103 @@
-# React + Vite
+🚀 RozgarSaathi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Kaam aapke paas — No middleman, No commission
 
-Currently, two official plugins are available:
+📌 Project Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+RozgarSaathi is a hyperlocal job-matching platform designed to connect daily wage workers (plumbers, electricians, painters, mazdoors) with households and contractors for same-day jobs.
 
-## React Compiler
+The platform provides digital visibility to workers and enables users to find nearby services quickly using location-based matching and maps.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🎯 Problem Statement
 
-## Expanding the ESLint configuration
+Daily wage workers lose work opportunities by waiting at physical nakas with no digital presence.
+Households and contractors struggle to find nearby workers quickly.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+There is no efficient system to:
+discover workers locally
+match jobs based on availability
+eliminate middlemen
+
+
+💡 Features & Functionality
+
+🔹 Core Features
+Worker registration with skill tags
+Job posting system
+Real-time job and worker listings
+Availability toggle (Available Today)
+
+📍 Live Location / Map View
+Detect user’s current location
+Show nearby workers on map
+Display job locations with markers
+Distance-based job matching
+
+🚀 Boost Profile
+Workers can boost their profile
+Appear at the top of search results
+Increases chances of getting hired
+
+🛡️ Safety & Emergency (SOS Button)
+One-tap emergency alert
+Shares live location
+Improves worker safety
+
+🔍 Additional Features
+Search & filter by skills
+Urgent job tagging
+Mobile-friendly UI
+Direct contact (Call/WhatsApp)
+
+🛠️ Tech Stack Used
+Frontend
+React (Vite)
+Tailwind CSS
+shadcn/ui
+Maps & Location
+Leaflet
+Geoapify API
+Browser Geolocation API
+Backend (Planned / Optional)
+Node.js
+Express.js
+PostgreSQL
+
+
+⚙️ Setup / Installation Instructions
+# Clone the repository
+git clone https://github.com/Ishika-Bhure/gitpusher_techkruti.git
+
+# Navigate into project
+cd rozgar-saathi
+
+# Install dependencies
+npm install
+
+# Run the project
+npm run dev
+
+👉 If backend is not fully integrated yet, mention:
+“Backend integration is under development and will be added soon.”
+
+👥 Team Details
+Team Name: GitPushers
+Members:
+Parth Rebhankar
+Dhiraj Bhalerao
+Atharva Dahake
+Ishika Bhure
+
+🔮 Future Scope
+AI-based job matching
+In-app chat system
+Rating & review system
+Multi-language support (Hindi, Marathi)
+Payment integration for Boost feature
+Government employment integration
+
+🎯 Impact
+Reduces waiting time for workers
+Increases daily earning opportunities
+Provides digital identity to informal workers
+Enables faster hiring for households
